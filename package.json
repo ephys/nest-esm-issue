@@ -1,0 +1,11 @@
+{
+  "name": "nest-esm-issue",
+  "type": "module",
+  "scripts": {
+    "test:1": "node index.mjs",
+    "test:2": "node --disallow-code-generation-from-strings index.mjs"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.2.1"
+  }
+}
